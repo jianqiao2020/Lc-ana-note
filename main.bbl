@@ -1,0 +1,90 @@
+\ifx\mcitethebibliography\mciteundefinedmacro
+\PackageError{LHCb.bst}{mciteplus.sty has not been loaded}
+{This bibstyle requires the use of the mciteplus package.}\fi
+\providecommand{\href}[2]{#2}
+\begin{mcitethebibliography}{1}
+\mciteSetBstSublistMode{n}
+\mciteSetBstMaxWidthForm{subitem}{\alph{mcitesubitemcount})}
+\mciteSetBstSublistLabelBeginEnd{\mcitemaxwidthsubitemform\space}
+{\relax}{\relax}
+
+\bibitem{LHCb-PAPER-2022-041}
+LHCb collaboration, R.~Aaij {\em et~al.},
+  \ifthenelse{\boolean{articletitles}}{\emph{{Measurement of $\Xicp$ production
+  in $\proton$Pb collisions at $\sqrt{s_{\mathrm{NN}}}=8.16$ TeV at LHCb}},
+  }{}\href{http://arxiv.org/abs/2305.06711}{{\normalfont\ttfamily
+  arXiv:2305.06711}}, {submitted to Phys.~Rev.~Lett.}\relax
+\mciteBstWouldAddEndPunctfalse
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{LHCb-PAPER-2018-021}
+LHCb collaboration, R.~Aaij {\em et~al.},
+  \ifthenelse{\boolean{articletitles}}{\emph{{Prompt \Lc production in
+  \proton{}Pb collisions at $\sqsnn = 5.02$\tev}},
+  }{}\href{https://doi.org/10.1007/JHEP02(2019)102}{JHEP \textbf{02} (2019)
+  102}, \href{http://arxiv.org/abs/1809.01404}{{\normalfont\ttfamily
+  arXiv:1809.01404}}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{PDG2022}
+Particle Data Group, R.~L. Workman {\em et~al.},
+  \ifthenelse{\boolean{articletitles}}{\emph{{\href{http://pdg.lbl.gov/}{Review
+  of particle physics}}}, }{}\href{https://doi.org/10.1093/ptep/ptac097}{Prog.\
+  Theor.\ Exp.\ Phys.\  \textbf{2022} (2022) 083C01}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{LHCb-PAPER-2019-021}
+LHCb collaboration, R.~Aaij {\em et~al.},
+  \ifthenelse{\boolean{articletitles}}{\emph{{Measurement of \CP observables in
+  the process \mbox{\decay{\Bz}{\D\Kstarz}} with two- and four-body \D
+  decays}}, }{}\href{https://doi.org/10.1007/JHEP08(2019)041}{JHEP \textbf{08}
+  (2019) 041}, \href{http://arxiv.org/abs/1906.08297}{{\normalfont\ttfamily
+  arXiv:1906.08297}}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{LHCb-PAPER-2022-007}
+LHCb collaboration, R.~Aaij {\em et~al.},
+  \ifthenelse{\boolean{articletitles}}{\emph{{Measurement of the prompt $\Dz$
+  nuclear modification factor in $\proton$Pb collisions at $\sqrt{s_{NN}}$ =
+  8.16 TeV}}, }{}\href{https://doi.org/10.1103/PhysRevLett.131.102301}{Phys.\
+  Rev.\ Lett.\  \textbf{131} (2023) 102301},
+  \href{http://arxiv.org/abs/2205.03936}{{\normalfont\ttfamily
+  arXiv:2205.03936}}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{Skwarnicki:1986xj}
+T.~Skwarnicki, {\em {A study of the radiative cascade transitions between the
+  Upsilon-prime and Upsilon resonances}}, PhD thesis, Institute of Nuclear
+  Physics, Krakow, 1986,
+  {\href{http://inspirehep.net/record/230779/}{DESY-F31-86-02}}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{bukin2007fitting}
+A.~D. Bukin, \ifthenelse{\boolean{articletitles}}{\emph{Fitting function for
+  asymmetric peaks},
+  }{}\href{http://arxiv.org/abs/0711.4449}{{\normalfont\ttfamily
+  arXiv:0711.4449}}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{Friedman2001GreedyFA}
+J.~H. Friedman, \ifthenelse{\boolean{articletitles}}{\emph{Greedy function
+  approximation: A gradient boosting machine.}, }{}Annals of Statistics
+  \textbf{29} (2001) 1189\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\end{mcitethebibliography}

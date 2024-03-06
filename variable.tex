@@ -1,0 +1,57 @@
+\section{Analysis strategy}
+    For this analysis, the key measurement is the $\Lc$ production cross-section
+    as a function $\pt(\Lc)$ and $y^*(\Lc)$,
+    where $y^*$ is the rapidity defined in the nucleon-nucleon centre-of-mass frame.
+    Here prompt \Lc baryons refer to those produced directly from collisions
+    or from the strong decay of other charm hadrons (\eg $\decay{\PSigma_c^{++}}{\Lc\pip}$).
+    Whereas non-prompt \Lc baryon, or \Lc-from-\bquark,
+    refer to those from the weak decay of \B hadrons (\eg \decay{\Lb}{\Lc \pim}).
+    The centre-of-mass frame does not coincide with laboratory frame
+    due to the asymmetry of the collision, so $y^*$ is shifted by a constant value
+    with respect to the rapidity in the laboratory frame:
+    \begin{equation}\label{eqn:ystar}
+        y^* = y - \delta y~,
+    \end{equation}
+    where \mbox{$\delta y = 0.5 \log (A_{\mathrm{Pb}}/Z_{\mathrm{Pb}}) = 0.465$}.
+    The direction of proton beam is defined as the positive $z$-axis.
+
+    the double differential cross-section is defined as:
+    \begin{equation}\label{eqn:cross-def}
+        \frac{\deriv^2 \sigma}{\deriv \pt \deriv y^*}=
+        \frac{N(\decay{\Lc}{\proton\Km\pip})}
+        {\mathcal{L}\times\epsilon_{\text{tot}}
+        \times\mathcal{B}(\decay{\Lc}{\proton\Km\pip})\times\Delta\pt \times \Delta y^*}~,
+    \end{equation}
+    \begin{itemize}
+        \item $N(\decay{\Lc}{\Kmp\pipm})$ is the prompt \Lc signal candidates
+            reconstructed through \decay{\Lc}{\Kmp\pipm} decay channels,
+            including their charge conjugate channels. It is measured in Section \ref{sec:yield}.
+        \item $\mathcal{L}$ is the integrated luminosity,
+            for Fwd $\mathcal{L_\mathrm{Fwd}}=0.01218\pm 0.00032\invpb$,
+            for Bwd$~\mathcal{L_\mathrm{Bwd}}=0.01857\pm 0.00046\invpb$~,
+            which is determined as the Ref. \cite{Aaij:1951625} described.
+            %\item $\varepsilon_{\text{tot}} = \varepsilon_{\text{acc}}\times\varepsilon_{\text{rec\&sel}}
+            %    \times\varepsilon_{\text{PID}}\times\varepsilon_{\text{tri}}$ ,
+        \item $\epsilon_{\mathrm{tot}}$ is the total efficiency in each $(\pt, y^*)$ bin,
+            evaluated in Section \ref{sec:efficiency}.
+        \item $\mathcal{B}(\decay{\Lc}{\Kmp\pipm})=(6.26\pm0.29)\%$
+            is the branching fraction of decay \decay{\Lc}{\proton\Km\pip},
+            obtained from PDG 2022\cite{PDG2022}.
+        \item $\Delta \pt$ is the bin width of the \Lc transverse momentum,
+            with a \pt range of $[0,15]$ \gevc.
+        \item $\Delta y^* = 0.5$ is the bin width of the \Lc rapidity, for Fwd $1.5 < y^* < 4.0$,
+            for Bwd $-5.0 < y^* < -2.5$.
+    \end{itemize}
+    Then the forward-backward production ratio can be derived from the cross-section as
+    \begin{equation}
+        R_{\text{FB}}(\pt,y^*) \equiv \frac{\deriv^2\sigma_{p\text{Pb}}(\pt,+|y^*|)/\deriv \pt \deriv y^*}{\deriv^2\sigma_{\text{Pb}p}(\pt,-|y^*|)/\deriv \pt \deriv y^*}~,
+    \end{equation}
+    which is calculated among common rapidity bins $2.5 < |y^*| < 4.0$.
+    By comparing the production cross-section with that \Dz meson,
+    the $\Lc/\Dz$ production ratio $R_{\Lc/\Dz}$ can be given as
+    \begin{equation}
+        R_{\Lc/\Dz} \equiv \frac{\sigma_{\Lc}}{\sigma_{\Dz}}~.
+    \end{equation}
+    $R_{\Lc/\Dz}$ can also be measured as functions of $(\pt, y^*)$,
+    as well as multiplicity variables such as $N_{\mathrm{PV}}^{\mathrm{tracks}}$ and $N_{\mathrm{VELO}}^\mathrm{Clusters}$,
+    in order to study the system size dependence of hadronisation processes.

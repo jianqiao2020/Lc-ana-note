@@ -1,0 +1,56 @@
+This is BibTeX, Version 0.99d (TeX Live 2019)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: main.aux
+The style file: LHCb.bst
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Database file #1: main.bib
+Database file #2: standard.bib
+Database file #3: LHCb-PAPER.bib
+Database file #4: LHCb-CONF.bib
+Database file #5: LHCb-DP.bib
+Database file #6: LHCb-TDR.bib
+Warning--I didn't find a database entry for "Aaij:1951625"
+Warning--I didn't find a database entry for "Pivk:200ty"
+Warning--I didn't find a database entry for "LHCb-PUB-2011-025"
+You've used 8 entries,
+            3359 wiz_defined-function locations,
+            784 strings with 7300 characters,
+and the built_in function-call counts, 21958 in all, are:
+= -- 2541
+> -- 57
+< -- 224
++ -- 910
+- -- 33
+* -- 1574
+:= -- 3101
+add.period$ -- 8
+call.type$ -- 8
+change.case$ -- 7
+chr.to.int$ -- 0
+cite$ -- 8
+duplicate$ -- 1570
+empty$ -- 1657
+format.name$ -- 13
+if$ -- 4321
+int.to.chr$ -- 0
+int.to.str$ -- 8
+missing$ -- 32
+newline$ -- 59
+num.names$ -- 13
+pop$ -- 147
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 59
+stack$ -- 0
+substring$ -- 5219
+swap$ -- 1
+text.length$ -- 16
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 233
+width$ -- 9
+write$ -- 129
+(There were 3 warnings)

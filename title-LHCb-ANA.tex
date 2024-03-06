@@ -1,0 +1,99 @@
+% $Id: title-LHCb-ANA.tex 39841 2013-07-26 10:31:08Z roldeman $
+% ===============================================================================
+% Purpose: LHCb-ANA Note title page template
+% Author: 
+% Created on: 2010-10-05
+% ===============================================================================
+
+%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%  TITLE PAGE  %%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{titlepage}
+
+% Header ---------------------------------------------------
+\vspace*{-1.5cm}
+
+\noindent
+\begin{tabular*}{\linewidth}{lc@{\extracolsep{\fill}}r@{\extracolsep{0pt}}}
+\ifthenelse{\boolean{pdflatex}}% Logo format choice
+{\vspace*{-1.2cm}\mbox{\!\!\!\includegraphics[width=.14\textwidth]{figs/lhcb-logo.pdf}} & &}%
+{\vspace*{-1.2cm}\mbox{\!\!\!\includegraphics[width=.12\textwidth]{figs/lhcb-logo.eps}} & &}
+ \\
+ & & LHCb-ANA-2019-039 \\  % ID 
+ & & \today \\ % Date - Can also hardwire e.g.: 23 March 2010
+ & & v1.7\\
+\hline
+\end{tabular*}
+
+\vspace*{4.0cm}
+
+% Title --------------------------------------------------
+{\normalfont\bfseries\boldmath\huge
+\begin{center}
+% DO NOT EDIT HERE. Instead edit macro in main.tex to keep metadata correct
+  \papertitle
+\end{center}
+}
+
+\vspace*{2.0cm}
+
+% Authors -------------------------------------------------
+\begin{center}
+% If changing to list here, make pdfauthors in main.tex a comma
+% separated list with the same names. Otherwise metadata in file will be wrong.
+    Chenxi Gu$^1$, Giulia Manca$^2$, Yiheng Luo$^3$,
+    Jiayin Sun$^2$, Jianqiao Wang$^4$, Di Yang$^4$, Xianglei Zhu$^4$
+\bigskip\\
+{\normalfont\itshape\footnotesize
+$ ^1$ Laboratoire Leprince-Ringuet, Palaiseau, France\\
+$ ^2$Peking University, Beijing, China \\
+$ ^3$Universita e INFN, Cagliari, Italy \\
+$ ^4$Tsinghua University, Beijing, China
+}
+\end{center}
+
+\vspace{\fill}
+
+% Abstract -----------------------------------------------
+\begin{abstract}
+  \noindent
+  Open heavy charmed baryon $\Lc$ is a good probe to nuclear matter effects in heavy-ion collisions.
+    Due to the large charm quark mass, perturbative QCD is applicable
+    in calculating their production cross sections in the initial hard parton scatterings.
+    %The charm quarks produced in QGP thermally or produced by rescattering of final-state hadrons can be neglected since the medium temperature is much less than the charm quark mass.
+    With the data of proton-lead collisions at $\sqsnn=8.16 \tev$
+    collected by LHCb during Run 2 in 2016,
+    the double-differential production cross section of $\Lc$ baryon
+    is measured in the transverse momentum region of ~$2-15~\gevc$,
+    corresponding to a center-of-mass rapidity region of $1.5< y^{*} < 4.0$
+    for forward configurations while $-5.0 < y^{*} < -2.5$ for backward configurations.
+    Open charm baryon over meson ratio $\Lc/\Dz$ is presented to study hadronisation mechanism
+    and compared with results measured by ALICE in proton-proton and proton-lead collisions
+    at $\sqsnn=5.02 \tev$ and results obtained by LHCb in proton-lead
+    and peripheral lead-lead collisions at $\sqsnn=5.02\tev$.
+
+
+\end{abstract}
+
+\vspace*{2.0cm}
+\vspace{\fill}
+
+\end{titlepage}
+\section*{History}
+\begin{itemize}
+    \item 0.0, Feb. $8^{\mathrm{th}}$ 2024:
+\end{itemize}
+
+
+\pagestyle{empty}  % no page number for the title 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%  EOD OF TITLE PAGE  %%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%  empty page follows the title page ----
+\newpage
+\setcounter{page}{2}
+\mbox{~}
+
+\cleardoublepage
